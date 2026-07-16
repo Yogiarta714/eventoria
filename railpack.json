@@ -1,21 +1,7 @@
 {
-  "$schema": "https://schema.railpack.com",
-  "providers": ["php", "node"],
-
-  "php": {
-    "version": "8.4",
-    "extensions": [
-      "gd",
-      "mbstring",
-      "openssl",
-      "pdo_mysql",
-      "fileinfo",
-      "curl",
-      "zip"
-    ]
-  },
-
-  "node": {
-    "version": "22"
-  }
+    "$schema": "https://schema.railpack.com",
+    "packages": {
+        "php": "8.4"
+    },
+    "phpExtensions": ["gd"]
 }
